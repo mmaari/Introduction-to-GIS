@@ -9,7 +9,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Marianna Magagnoli" />
 
 
 <title>Introduction to GIS</title>
@@ -1339,7 +1338,31 @@ if (window.hljs) {
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+<style type="text/css">
+body{
+font-family: Helvetica;
+font-size: 16pt;
+}
+
+h1{
+font-size: 24pt;
+}
+h2{
+font-size: 22pt;
+}
+h3{
+font-size: 20pt;
+}
+h4{
+font-size: 18pt;
+}
+h5{
+font-size: 16pt;
+}
+h6{
+font-size: 16pt;
+}
+</style>
 
 
 
@@ -1499,11 +1522,17 @@ border-radius: 0px;
 
 <h1 class="title toc-ignore"><strong>Introduction to GIS</strong></h1>
 <h4 class="author">Marianna Magagnoli</h4>
+<address class="author_afil">
+University of Barcelona<br><a class="author_email" href="mailto:#"><a href="mailto:marianna.magagnoli@ub.edu" class="email">marianna.magagnoli@ub.edu</a> | <a href="https://sites.google.com/view/mariannamagagnoli/home-page">Personal
+webpage</a></a>
+</address>
 <h4 class="date">June 2023</h4>
 
 </div>
 
 
+<p></br> Please get the course materials (data and scripts) from <a href="https://github.com/mmagagnoli/Introduction-to-GIS.git">GitHub</a>
+</br></p>
 <div id="introduction" class="section level1" number="1">
 <h1><span class="header-section-number">1</span>
 <strong>Introduction</strong></h1>
@@ -1802,12 +1831,17 @@ of a spatial vector (e.g. polygons, points, …).</p>
 <p><em>[data/raw_data]</em></p>
 <p></br></p>
 <ul>
+<li>NDVI (Barcelona City Hall)</li>
 <li>Elevation raster (Cartographic and Geologic institute of
 Catalunya)</li>
 <li>Street network (Barcelona City Hall)</li>
 </ul>
+<p>Note: NDVI stands for ‘Normalized Difference Vegetation Index’. It
+quantifies vegetation by measuring the difference between near-infrared
+(which vegetation strongly reflects) and red light (which vegetation
+absorbs). NDVI ranges from -1 to +1 <a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>.</p>
 <p></br></p>
-<p><strong>Q1</strong>: what’s the average elevation by
+<p><strong>Q1</strong>: what’s the average vegetation index (NDVI) by
 neighborhood?</p>
 <p><strong>Q2</strong>: what’s the gradient of streets in Barcelona?</p>
 <p></br></p>
@@ -1897,6 +1931,7 @@ Churchill</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 vs Projected CRS - earthdatascience.org</a><a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 <li id="fn5"><p>see <a href="https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE">Keyboard
 Shortcuts</a> for more<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p><a href="https://gisgeography.com/ndvi-normalized-difference-vegetation-index/">gisgeography.com</a><a href="#fnref6" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
